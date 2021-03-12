@@ -17,3 +17,6 @@
 3. What determines musician/band success?
     1. Do artist stories/backgrounds have significanct impact on their success?
     2. Looking at specific types of musicians v. generally famous people
+
+4. What metrics are useful in predicting food insecurity in cities?
+    1. 

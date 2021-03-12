@@ -20,3 +20,8 @@
 
 4. What metrics are useful in predicting food insecurity in cities?
     1. 
+
+
+Clear defined targets
+What features define the target
+Get the data

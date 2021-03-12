@@ -22,6 +22,6 @@
     1. 
 
 
-Clear defined targets
-What features define the target
+Clear defined targets  
+What features define the target  
 Get the data

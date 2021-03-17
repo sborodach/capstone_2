@@ -18,7 +18,9 @@
     3. Goal: build a model that can predict whether stocks will rise or fall (in building the model using the current price as the 'future' price) based on historical prices
     4. Notes
         1. I've collected all the data
-        2. Next step: create features like % increase over: the last 5 months, the last year, last 3 years, last 5 years.
+        2. Next steps: 
+            1. create features like % increase over: the last 5 months, the last year, last 3 years, last 5 years.
+            2. Have better understanding of testing time-series data
 
 
 Keep in mind:

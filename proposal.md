@@ -9,19 +9,19 @@
     6. Parameters to limit research: farmers farming on < 100 acres; income < $500,000; < 15 workers
     7. Success baromoter: are they still farming after 5 years?
 
-2. Are town/local government officials representative of the population living there?
-    1. What makes a town's government more or less representative of the population?
-    2. Gather demographic data; gather data on local representation
-    3. Determine other features that could be relevant to who local officials are (town political trends, proximity to big cities, state located in, etc.). Gather data and include in research. 
+# Current proposal
+1. Data: monthly prices of 1500 stocks for their entire lifetimes
+    1. Test different theories of predicting stock prices
+        1. momentum
+        2. mean reversion
+        3. martingales
+    3. Goal: build a model that can predict whether stocks will rise or fall (in building the model using the current price as the 'future' price) based on historical prices
+    4. Notes
+        1. I've collected all the data
+        2. Next step: create features like % increase over: the last 5 months, the last year, last 3 years, last 5 years.
 
-3. What determines musician/band success?
-    1. Do artist stories/backgrounds have significanct impact on their success?
-    2. Looking at specific types of musicians v. generally famous people
 
-4. What metrics are useful in predicting food insecurity in cities?
-    1. 
-
-
-Clear defined targets  
-What features define the target  
-Get the data
+Keep in mind:
+1. Clear defined targets
+2. What features define the target  
+3. Get the data

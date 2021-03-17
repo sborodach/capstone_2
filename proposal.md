@@ -21,6 +21,7 @@
         2. Next steps: 
             1. create features like % increase over: the last 5 months, the last year, last 3 years, last 5 years.
             2. Have better understanding of testing time-series data
+            3. just use data from https://unbiastock.com/reddit.php?
 
 
 Keep in mind:

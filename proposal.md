@@ -9,7 +9,7 @@
     6. Parameters to limit research: farmers farming on < 100 acres; income < $500,000; < 15 workers
     7. Success baromoter: are they still farming after 5 years?
 
-# Current proposal
+# Current proposal as of 3/17
 1. Data: monthly prices of 1500 stocks for their entire lifetimes
     1. Test different theories of predicting stock prices
         1. momentum

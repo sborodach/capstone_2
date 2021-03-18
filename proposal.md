@@ -18,7 +18,7 @@ Since we are doing NLP on Tuesday, I figure I will have those weeknight to work 
 
 
 
-# As of 3.16
+### As of 3.16
 1. Data: monthly prices of 1500 stocks for their entire lifetimes
     1. Test different theories of predicting stock prices
         1. momentum
@@ -32,7 +32,7 @@ Since we are doing NLP on Tuesday, I figure I will have those weeknight to work 
             2. Have better understanding of testing time-series data
             3. just use data from https://unbiastock.com/reddit.php?
 
-# As of 3.12
+### As of 3.12
 1. Is a beginning farmer's business likely to succeed? 
     1. I worked on a small farm: < 5 acres; < 10 workers; < $250,000 income. By gathering data on certain metrics I would like to generate models that predict if these farmers will succeed.
     2. Predict likelihood of success for beginning farmers in US based on metrics like funding, years experience, education, supplemental income, individual or partnership

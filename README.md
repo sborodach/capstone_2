@@ -20,7 +20,7 @@ _Logistic Regression_
         - Doesn't work for p > n (more features than data points)
 - Hard v Soft classifiers
 
-| ----- | Post-War | Pre-War |
+|  | Post-War | Pre-War |
 | ----- | ----- | ----- |
 | True | 1138 | 0 | 
 | False | 788 | 0 | 

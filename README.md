@@ -38,7 +38,7 @@ _Random Forest Classifier_
         - others with high gini importance: kampuchea, challenges, powers, millennium, detente, racist, race
     - After removing Namibia, Soviet, and Kampuchea, these were the most relevant features for each class:
         
-        - Post-war: sustainable      7.197204
+- Post-war: sustainable      7.197204
 terrorism        6.797736
 millennium       5.469565
 reform           5.468989
@@ -49,7 +49,7 @@ african          4.587272
 island           4.523363
 globalization    4.484994
         
-        - Pre-war: south           4.328527
+- Pre-war: south           4.328527
 arab            3.946033
 africa          3.764856
 independence    3.639942

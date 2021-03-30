@@ -19,6 +19,7 @@ _Logistic Regression_
         - Requires feature engineering to capture non-linear relationships
         - Doesn't work for p > n (more features than data points)
 - Hard v Soft classifiers
+
 | ----- | Post-War | Pre-War |
 | ----- | ----- | ----- |
 | True | 1138 | 0 | 

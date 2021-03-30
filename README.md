@@ -1,3 +1,6 @@
+_Feature Engineering_
+- 80k features to 3k
+
 Highest Frequency v. TFIDF
 - What is TFIDF?
     - The **Term Frequency** of a word in a document. There are several ways of calculating this frequency, with the simplest being a raw count of instances a word appears in a document. Then, there are ways to adjust the frequency, by length of a document, or by the raw frequency of the most frequent word in a document.
@@ -22,8 +25,8 @@ _Logistic Regression_
 
 |  | Post-War | Pre-War |
 | ----- | ----- | ----- |
-| True | 1138 | 0 | 
-| False | 788 | 0 | 
+| **True** | 1138 | 0 | 
+| **False** | 788 | 0 | 
 
 _ROC Curve_
 
@@ -31,6 +34,29 @@ _Decision Tree Classifier_
 Grid Search: max depth: 10 (higher results were minimal for greater depth.
 
 _Random Forest Classifier_
+    - 5 most important features: Namibia, mankind, sustainable, apartheid, Soviet
+        - others with high gini importance: kampuchea, challenges, powers, millennium, detente, racist, race
+    - After removing Namibia, Soviet, and Kampuchea, these were the most relevant features for each class:
+        - Post-war: sustainable      7.197204
+terrorism        6.797736
+millennium       5.469565
+reform           5.468989
+climate          5.326580
+challenges       4.835129
+global           4.616302
+african          4.587272
+island           4.523363
+globalization    4.484994
+        - Pre-war: south           4.328527
+arab            3.946033
+africa          3.764856
+independence    3.639942
+disarmament     3.604269
+delegation      3.508519
+nuclear         3.498518
+detente         3.348977
+aggression      3.295697
+peoples         3.256435
 
 
 _Gradient Boosting Classifier_

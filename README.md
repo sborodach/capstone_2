@@ -1,17 +1,26 @@
-# Proposals
+Highest Frequency v. TFIDF
+- What is TFIDF?
+    - The **Term Frequency** of a word in a document. There are several ways of calculating this frequency, with the simplest being a raw count of instances a word appears in a document. Then, there are ways to adjust the frequency, by length of a document, or by the raw frequency of the most frequent word in a document.
+    - The **Inverse Document Frequency** of the word across a set of documents. This means, how common or rare a word is in the entire document set. The closer it is to 0, the more common a word is. This metric can be calculated by taking the total number of documents, dividing it by the number of documents that contain a word, and calculating the logarithm. So, if the word is very common and appears in many documents, this number will approach 0. Otherwise, it will approach 1.
+    - _tf(term,document) * idf(term,corpus)_
 
-1. Is a beginning farmer's business likely to succeed? 
-    1. I worked on a small farm: < 5 acres; < 10 workers; < $250,000 income. By gathering data on certain metrics I would like to generate models that predict if these farmers will succeed.
-    2. Predict likelihood of success for beginning farmers in US based on metrics like funding, years experience, education, supplemental income, individual or partnership
-    3. Other features to consider: location, race
-    4. [USDA: agriculture prices](https://usda.library.cornell.edu/concern/publications/c821gj76b?locale=en)
-    5. Parameters to limit research: farmers farming on < 100 acres; income < $500,000; < 15 workers
-    6. Success baromoter: are they still farming after 5 years?
 
-2. Are town/local government officials representative of the population living there?
-    1. What makes a town's government more or less representative of the population?
-    2. Gather demographic data; gather data on local representation
-    3. Determine other features that could be relevant to who local officials are (town political trends, proximity to big cities, state located in, etc.). Gather data and include in research. 
 
-3. What determines musician/band success?
-    1. Looking at specific types of musicians v. generally famous people
+_Logistic Regression_
+1. Logistic regression is generally the first thing you try when building a classifier and is actually used in some production environments.
+    A. Advantages:
+        - Fast (for training and prediction)
+        - Simple (few hyperparameters)
+        - Interpretable
+        - Provides good probabilities
+    B. Disadvantages
+        - Requires feature engineering to capture non-linear relationships
+        - Doesn't work for p > n (more features than data points)
+
+_ROC Curve_
+
+_Decision Tree Classifier_
+
+_Random Forest Classifier_
+
+_Gradient Boosting Classifier_

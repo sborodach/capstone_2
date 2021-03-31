@@ -7,9 +7,15 @@ From the Random Forest, feature importances were collected. After removing the f
     - **apartheid** 
     - **Soviet** Dissolution of the Soviet Union at the end of 1991
     - **Boutros Ghali** was the secratary general of the UN from 1992-1996
-    - **Bosnia** decalared independence in 1992
+    - **Bosnia & Herzegovnia** decalared independence in 1992
+    - **thirty** refers to session numbers (thirty-eight, thirty-nine) strong influencer for classification of pre-war era
+    - **Korea**
+    - **Vietnam**
+    - **Marco** Guido de Marco President of the UN General Assembly in 1990
+    - **Cueller** Javier Pérez de Cuéllar was the Secratary General of the UN from '82-'91
 
-    - NAM: Non Aligned Movement
+racist, domination,
+sustainable, 
 
 1. TFIDF
 - What is TFIDF?

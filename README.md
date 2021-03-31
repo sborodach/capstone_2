@@ -13,6 +13,11 @@ From the Random Forest, feature importances were collected. After removing the f
     - **Vietnam**
     - **Marco** Guido de Marco President of the UN General Assembly in 1990
     - **Cueller** Javier Pérez de Cuéllar was the Secratary General of the UN from '82-'91
+    - **detente** Most often, the term is used for a phase of the Cold War. It was the policy of relaxing tensions between the Soviet Union and the West, as promoted by Richard Nixon, Henry Kissinger and Leonid Brezhnev, between 1969 and 1974.
+    - **Cyprus**
+    - **Waldheim** Kurt Waldheim, Secratary General of the UN from '72-'81
+    - **425 & 1978** Security Council Resolution 425 in 1978
+    - 
 
 racist, domination,
 sustainable, 

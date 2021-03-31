@@ -36,7 +36,11 @@ Grid Search: max depth: 10 (higher results were minimal for greater depth.
 _Random Forest Classifier_
     - 5 most important features: Namibia, mankind, sustainable, apartheid, Soviet
         - others with high gini importance: kampuchea, challenges, powers, millennium, detente, racist, race
-    - After removing Namibia, Soviet, and Kampuchea, these were the most relevant features for each class:
+    - After removing Namibia, Soviet, and Kampuchea:
+        - , these were the most relevant features for each class:
+        - higherst tfidf: africa', 'sustainable', 'terrorism', 'african', 'nuclear', 'european',
+       'republic', 'climate', 'europe', 'south', 'arab', 'reform'
+       - Most common: 
         
 - Post-war: sustainable      7.197204
 terrorism        6.797736

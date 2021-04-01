@@ -29,7 +29,7 @@ SciKitLearn functions include both a WordCount Vectorizer and a TFIDF Vectorizer
 After starting out with over 80k features, those features that were included for modelling were only those that had tfidf scores1 above a certain threshold. This process limited the number of features to just over 3k.  
 Further, k-means clustering resulted in identifying a single outlier that appeared consistently in its own cluster, regardless of the number of clusters. Upon inspection, this document consisted of random symbols and was thus discarded. This is actually a pleasing discovery as the total number of speeches according to the dataset documentation was 7001 and when reading in the various CSV's there were 7002. Thus we then had the correct amount of documents.  
 From the Random Forest, feature importances were collected. After removing the features with greatest importance due to concern that the underlying distinctions between the two classes was being overwritten by select dominant features, the models still performed very well.  
-Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list of terms added to the stopwords set, see 
+Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list of terms added to the stopwords set, see [Notes](https://github.com/sborodach/capstone_2/blob/main/notes.md)
 
 ### Model Performance
 1. Logistic Regression

@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" width="100" height="100">
+  <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" width="300" height="300">
 </p>
 
 ### Purpose

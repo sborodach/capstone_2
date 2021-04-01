@@ -1,8 +1,6 @@
 <p align="center">
-    <font size="+5">
-    Speeches of the United Nations General Assembly:  <br></br>
+    <font size="+5">Speeches of the United Nations General Assembly:</font>  <br></br>
     Predicting Pre/Post Cold War Era & Speech Topics
-    </font>
 </p>
 
 ### Purpose

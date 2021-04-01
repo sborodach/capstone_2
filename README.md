@@ -1,9 +1,7 @@
 <p align="center">
     Speeches of the United Nations General Assembly:
+    Predicting Pre/Post Cold War Era & Speech Topics
 </p>
-<center>/center>
-
-##### Predicting Pre/Post Cold War Era & Speech Topics
 
 ### Purpose
 The United Nations General Assembly is the central deliberative, policy-making, and representative organ of the United Nations. The UNGA is responsible for the UN budget, appointing the non-permanent members to the Security Council, appointing the Secretary-General of the United Nations, receiving reports from other parts of the UN system,  making recommendations through resolutions, among other functions it serves. The UNGA is the only UN organ wherein all member states have equal representation. Annual sessions are held under its president or secretary-general in New York City, typically from September through January until all issues are addressed. The first session was in 1946 London, including representatives of the 51 founding nations. [Source: Wikipedia](https://en.wikipedia.org/wiki/United_Nations_General_Assembly)

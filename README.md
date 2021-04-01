@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" />
+</p>
+
+<p align="center">
     <font size="+5">Speeches of the United Nations General Assembly:</font>  <br></br>
     Predicting Pre/Post Cold War Era & Speech Topics
 </p>
@@ -11,7 +15,7 @@ Speeches are delivered by the representatives from each country at the UNGA's an
 ### Data
 Speeches given at the UNGA 1970-2016 are available on [DataWorld](https://data.world/ian/united-nations-general-debate-corpus/).
 
-Distribution of speeches from distinct eras: 
+Distribution of speeches from distinct eras:
 
 ### Word Counts v TFIDF
 _What is TFIDF?_

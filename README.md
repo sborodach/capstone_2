@@ -39,25 +39,15 @@ From the Random Forest, feature importances were collected. After removing the f
     - **millennium**
 
 ### Model Performance
-    1. Models  
-        a. _Logistic Regression_  
-        1. Logistic regression is generally the first thing you try when building a classifier and is actually used in some production environments.  
-            A. Advantages:  
-                - Fast (for training and prediction)  
-                - Simple (few hyperparameters)  
-                - Interpretable  
-                - Provides good probabilities  
-            B. Disadvantages  
-                - Requires feature engineering to capture non-linear relationships  
-                - Doesn't work for p > n (more features than data points)  
-        - Hard v Soft classifiers  
+1. Logistic Regression
+    - Fast and simple (few hyperparameters)
+    - Hard v Soft classifiers  
 
+After knocking out 1600+ speeches from the post CW era to balance out the classes, the Logistic Regression performed very well:  
 |  | Post-War | Pre-War |
 | ----- | ----- | ----- |
 | **True** | 1138 | 0 | 
-| **False** | 788 | 0 | 
-
-after knocking out 1600+ speeches from the post CW era to balance out the classes, the Logistic Regression performed very well:  
+| **False** | 788 | 0 |
 |  | Post-War | Pre-War |
 | ----- | ----- | ----- |
 | **True** | 722 | 740 | 

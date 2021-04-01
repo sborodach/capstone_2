@@ -9,11 +9,20 @@
 <p align="center">
   <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" width="600" height="400">
 </p>
+# Contents
+1. Purpose
+2. Data
+3. Feature Engineering
+4. Predicting Speeches' Era Using Vectorizers
+5. Topic Modelling
+6. Predicting Speeches' Era Using Topics
+7. Visualizing with GemSim
 
 ### Purpose
 The United Nations General Assembly is the central deliberative, policy-making, and representative organ of the United Nations. The UNGA is responsible for the UN budget, appointing the non-permanent members to the Security Council, appointing the Secretary-General of the United Nations, receiving reports from other parts of the UN system,  making recommendations through resolutions, among other functions it serves. The UNGA is the only UN organ wherein all member states have equal representation. Annual sessions are held under its president or secretary-general in New York City, typically from September through January until all issues are addressed. The first session was in 1946 London, including representatives of the 51 founding nations. [Source: Wikipedia](https://en.wikipedia.org/wiki/United_Nations_General_Assembly)
 
-Speeches are delivered by the representatives from each country at the UNGA's annual session. I sought to model predicitions of speeches given prior to or following the Cold War. The cut-off date is 1992, following the dismantling of the former Soviet Union at the close of 1991.
+Speeches are delivered by the representatives from each country at the UNGA's annual session. I sought to model predicitions of speeches given prior to or following the Cold War. The cut-off date is 1992, following the dismantling of the former Soviet Union at the close of 1991. 
+I predicted on 7700 speeches if they were given prior to or post the Cold War. I additionally performed topic modelling, predicted speeches' era based on topics as features, and finally 
 
 ### Data
 Speeches given at the UNGA 1970-2016 are available on [DataWorld](https://data.world/ian/united-nations-general-debate-corpus/).
@@ -24,7 +33,7 @@ After starting out with over 80k features, those features that were included for
 From the Random Forest, feature importances were collected. After removing the features with greatest importance due to concern that the underlying distinctions between the two classes was being overwritten by select dominant features, the models still performed very well.  
 Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list of terms added to the stopwords set, see [notes.md](https://github.com/sborodach/capstone_2/blob/main/notes.md)
 
-### Model Performance
+### Predicting Speeches' Era: Pre & Post Cold War
 1. Logistic Regression
     - Fast and simple (few hyperparameters)
     - Hard v Soft classifiers  

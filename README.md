@@ -1,4 +1,4 @@
-<p align="justify">
+<p align="center">
     Speeches of the United Nations General Assembly:
 </p>
 <center>/center>

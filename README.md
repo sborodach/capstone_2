@@ -1,6 +1,6 @@
-<p align="center">
-    Speeches Delivered at the United Nations General Assembly 
-</p>
+<h1 align="center">
+    Speeches Delivered at the United Nations General Assembly
+</h1>
 
 
 <p align="center">

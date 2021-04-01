@@ -1,4 +1,5 @@
-### Speeches of the United Nations General Assembly:
+### <center>Speeches of the United Nations General Assembly:</center>
+
 ##### Predicting Pre/Post Cold War Era & Speech Topics
 
 ### Purpose

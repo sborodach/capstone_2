@@ -1,4 +1,7 @@
-<center>Speeches of the United Nations General Assembly:</center>
+<p align="justify">
+    Speeches of the United Nations General Assembly:
+</p>
+<center>/center>
 
 ##### Predicting Pre/Post Cold War Era & Speech Topics
 

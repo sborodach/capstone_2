@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" />
-</p>
-
-<p align="center">
     <font size="+5">Speeches of the United Nations General Assembly:</font>  <br></br>
     Predicting Pre/Post Cold War Era & Speech Topics
+</p>
+
+
+<p align="center">
+  <img src="https://live.staticflickr.com/3552/3311542781_71fb3f4618_c.jpg" />
 </p>
 
 ### Purpose

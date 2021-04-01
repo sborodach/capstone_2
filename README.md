@@ -36,7 +36,8 @@ Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list
 | **False** | 788 | 0 |
 | **Balanced Classes** | | |
 | **Correct** | 722 | 740 | 
-| **Incorrect** | 7 | 53 | 
+| **Incorrect** | 7 | 53 |  
+
 On a first pass, the LR model classified all observations as the dominant class. However, balancing out the classes by removing speeches from the majority class resulted in an effective LR model.  
 
 2. Random Forest Classifier

@@ -1,6 +1,9 @@
 <h1 align="center">
-    Speeches Delivered at the United Nations General Assembly
+    Speeches Delivered at the United Nations General Assembly:<break></break>
 </h1>
+<h2 align="center">
+    Pre & Post Cold War Era Sentiment
+</h2>
 
 
 <p align="center">

@@ -44,14 +44,11 @@ From the Random Forest, feature importances were collected. After removing the f
     - Hard v Soft classifiers  
 
 After knocking out 1600+ speeches from the post CW era to balance out the classes, the Logistic Regression performed very well:  
-|  | Post-War | Pre-War |
-| ----- | ----- | ----- |
-| **True** | 1138 | 0 | 
-| **False** | 788 | 0 |
-|  | Post-War | Pre-War |
-| ----- | ----- | ----- |
-| **True** | 722 | 740 | 
-| **False** | 7 | 53 | 
+| Imbalanced Classes | Post-War | Pre-War | Balanced Classes | Post-War | Pre-War |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| **True** | 1138 | 0 |  **True** | 722 | 740 | 
+| **False** | 788 | 0 | **False** | 7 | 53 | 
+
         b. _Decision Tree Classifier  
             i. The Decision Tree Classifier consistenyl performed poorer both the Random Forest and Gradient Boosting  
         c. _Random Forest Classifier_  

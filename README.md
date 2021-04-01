@@ -17,17 +17,10 @@ Speeches are delivered by the representatives from each country at the UNGA's an
 
 ### Data
 Speeches given at the UNGA 1970-2016 are available on [DataWorld](https://data.world/ian/united-nations-general-debate-corpus/).
-
 Distribution of speeches from distinct eras:
-
-### Word Counts v TFIDF
-_What is TFIDF?_
-TFIDF is a score of each and every word in the corpus across all documents. It is tf * idf, or tf(term,document) * idf(term,corpus). The **Term Frequency (TF)** of a word in a document, simlpy a raw count of instances a word appears in a document. The **Inverse Document Frequency (IDF)** of a word across the set of documents. This means, how common or rare a word is in the entire document set. The closer it is to 0, the more common a word is. This metric is calculated by taking logarithm of the total number of documents divided by the number of documents that contain a word. So, if the word is very common and appears in many documents, this number will approach 0. Otherwise, it will approach 1.  
-SciKitLearn functions include both a WordCount Vectorizer and a TFIDF Vectorizer. The former is useful for displaying the distribution of words. However, when predicting on natural language, generating TFIDF values for the vectors provides relevance of words across documents, contextualizing them in terms of appearance in a given document, as well as across all documents in the corpus as whole. 
 
 ### Feature Engineering
 After starting out with over 80k features, those features that were included for modelling were only those that had tfidf scores1 above a certain threshold. This process limited the number of features to just over 3k.  
-Further, k-means clustering resulted in identifying a single outlier that appeared consistently in its own cluster, regardless of the number of clusters. Upon inspection, this document consisted of random symbols and was thus discarded. This is actually a pleasing discovery as the total number of speeches according to the dataset documentation was 7001 and when reading in the various CSV's there were 7002. Thus we then had the correct amount of documents.  
 From the Random Forest, feature importances were collected. After removing the features with greatest importance due to concern that the underlying distinctions between the two classes was being overwritten by select dominant features, the models still performed very well.  
 Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list of terms added to the stopwords set, see [notes.md](https://github.com/sborodach/capstone_2/blob/main/notes.md)
 
@@ -66,6 +59,9 @@ Evaluation Metrics:
 Further Steps:
     - Feature engineering to improve LR model  
 
+### Thank you
+to my instructors Juliana Duncan, Dan Rupp, and Kiara Hearn for their instruction in the Galvanize Data Science Immersive. Thank you additionally to Hailin Du, Alice Tsai, and Noah Shreve for their comments and insight throughout teh formation of this project.
+
 Notes & Lessons Learned:
     - Decision Tree Classifier consistently performed more poorly than the Random Forest and Gradient Boosting models.  
-    - Kmeans highlighted a single outlier regardless of the number of a clusters. It turned out to be a document of symbols or encoded text, which I removed from the corpus.
+    - Kmeans highlighted a single outlier regardless of the number of a clusters. It turned out to be a document of symbols or encoded text, which I removed from the corpus. Further, k-means clustering resulted in identifying a single outlier that appeared consistently in its own cluster, regardless of the number of clusters. Upon inspection, this document consisted of random symbols and was thus discarded. This is actually a pleasing discovery as the total number of speeches according to the dataset documentation was 7001 and when reading in the various CSV's there were 7002. Thus we then had the correct amount of documents.

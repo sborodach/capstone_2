@@ -43,7 +43,6 @@ From the Random Forest, feature importances were collected. After removing the f
     - Fast and simple (few hyperparameters)
     - Hard v Soft classifiers  
 
-After knocking out 1600+ speeches from the post CW era to balance out the classes, the Logistic Regression performed very well:  
 |  | Post-War | Pre-War | 
 | ----- | ----- | ----- |
 | **Imbalanced Classes** | | |
@@ -52,21 +51,28 @@ After knocking out 1600+ speeches from the post CW era to balance out the classe
 | **Balanced Classes** | | |
 | **Correct** | 722 | 740 | 
 | **Incorrect** | 7 | 53 | 
+On a first pass, the LR model classified all observations as the dominant class. However, balancing out the classes by removing speeches from the majority class resulted in an effective LR model.  
 
-        b. _Decision Tree Classifier  
-            i. The Decision Tree Classifier consistenyl performed poorer both the Random Forest and Gradient Boosting  
-        c. _Random Forest Classifier_  
-        d. _Gradient Boosting Classifier_  
+2. Random Forest Classifier
 
-        _ROC Curve_ + other evaulation metrics  
+3. Gradient Boosting Classifier
+
+Evaluation Metrics:
+    - _ROC Curve_ + other evaulation metrics  
         
 ### Topic Modelling
-    1. Kmeans  
-        A. one outlier, turned out to be a document of symbols or encoded text. ditch it.  
-    3. Topic Modelling  
-    4.     - display elbow graph 
-    5.         - illustrate progression of increasing n_components   
+1. Nmf
+    - display elbow graph  
+    - illustrate progression of increasing n_components  
+3. LdA Model: GenSim  
   
 ### Some Additional Fun Things
     - Predicting based on topics
     - Investigating incorrectly predicted documents  
+
+Further Steps:
+    - Feature engineering to improve LR model  
+
+Notes & Lessons Learned:
+    - Decision Tree Classifier consistently performed more poorly than the Random Forest and Gradient Boosting models.  
+    - Kmeans highlighted a single outlier regardless of the number of a clusters. It turned out to be a document of symbols or encoded text, which I removed from the corpus.

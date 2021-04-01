@@ -46,10 +46,10 @@ From the Random Forest, feature importances were collected. After removing the f
 After knocking out 1600+ speeches from the post CW era to balance out the classes, the Logistic Regression performed very well:  
 |  | Post-War | Pre-War | 
 | ----- | ----- | ----- |
-| Imbalanced Classes | ----- | ----- |
+| **Imbalanced Classes** | | |
 | **True** | 1138 | 0 |
 | **False** | 788 | 0 |
-| Balanced Classes | ----- | ----- |
+| **Balanced Classes** | | |
 | **Correct** | 722 | 740 | 
 | **Incorrect** | 7 | 53 | 
 

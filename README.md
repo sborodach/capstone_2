@@ -71,3 +71,9 @@ to my instructors Juliana Duncan, Dan Rupp, and Kiara Hearn for their instructio
 Notes & Lessons Learned:
     - Decision Tree Classifier consistently performed more poorly than the Random Forest and Gradient Boosting models.  
     - Kmeans highlighted a single outlier regardless of the number of a clusters. It turned out to be a document of symbols or encoded text, which I removed from the corpus. Further, k-means clustering resulted in identifying a single outlier that appeared consistently in its own cluster, regardless of the number of clusters. Upon inspection, this document consisted of random symbols and was thus discarded. This is actually a pleasing discovery as the total number of speeches according to the dataset documentation was 7001 and when reading in the various CSV's there were 7002. Thus we then had the correct amount of documents.
+
+
+|  | Pre-War | Post-War | 
+| ----- | ----- | ----- |
+| **True** | 725 | 1161 | 
+| **False** | 17 | 23 |  

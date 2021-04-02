@@ -73,7 +73,32 @@ Notes & Lessons Learned:
     - Kmeans highlighted a single outlier regardless of the number of a clusters. It turned out to be a document of symbols or encoded text, which I removed from the corpus. Further, k-means clustering resulted in identifying a single outlier that appeared consistently in its own cluster, regardless of the number of clusters. Upon inspection, this document consisted of random symbols and was thus discarded. This is actually a pleasing discovery as the total number of speeches according to the dataset documentation was 7001 and when reading in the various CSV's there were 7002. Thus we then had the correct amount of documents.
 
 
+20 components
+724,   24],
+[  13, 1165]]
+
+15 components
+[ 725,   23],
+[  17, 1161]]
+         
+10 components
+[ 724,   24],
+[  18, 1160]
+
+### n_components = 10
+|  | Pre-War | Post-War | 
+| ----- | ----- | ----- |
+| **True** | 724 | 1160 | 
+| **False** | 18 | 24 |  
+
+### n_components = 15
 |  | Pre-War | Post-War | 
 | ----- | ----- | ----- |
 | **True** | 725 | 1161 | 
 | **False** | 17 | 23 |  
+
+### n_components = 20
+|  | Pre-War | Post-War | 
+| ----- | ----- | ----- |
+| **True** | 724 | 1165 | 
+| **False** | 13 | 24 |

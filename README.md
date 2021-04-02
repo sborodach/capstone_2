@@ -38,14 +38,10 @@ Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list
     - Fast and simple (few hyperparameters)
     - Hard v Soft classifiers  
 
-|  | Post-War | Pre-War | 
+|  | Pre-War | Post-War | 
 | ----- | ----- | ----- |
-| **Imbalanced Classes** | | |
-| **True** | 1138 | 0 |
-| **False** | 788 | 0 |
-| **Balanced Classes** | | |
-| **Correct** | 722 | 740 | 
-| **Incorrect** | 7 | 53 |  
+| **True** | 729 | 1172 | 
+| **False** | 6 | 19 |  
 
 On a first pass, the LR model classified all observations as the dominant class. However, balancing out the classes by removing speeches from the majority class resulted in an effective LR model.  
 

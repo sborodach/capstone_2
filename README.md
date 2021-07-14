@@ -26,7 +26,7 @@ I predicted on 7700 speeches if they were given prior to or post the Cold War. I
 
 ### Data
 Speeches given at the UNGA 1970-2016 are available on [DataWorld](https://data.world/ian/united-nations-general-debate-corpus/).
-Distribution of speeches from distinct eras:
+Distribution of speeches from distinct eras: ![distribution of speeches](https://github.com/sborodach/united-nations-general-assembly-speeches/blob/main/img/distribution-of-speeches.png)
 
 ### Feature Engineering
 After starting out with over 80k features, those features that were included for modelling were only those that had tfidf scores1 above a certain threshold. This process limited the number of features to just over 3k.  

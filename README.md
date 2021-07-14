@@ -30,7 +30,7 @@ Distribution of speeches from distinct eras: ![distribution of speeches](https:/
 
 ### Feature Engineering
 After starting out with over 80k features, those features that were included for modelling were only those that had tfidf scores1 above a certain threshold. This process limited the number of features to just over 3k.  
-From the Random Forest, feature importances were collected. After removing the features with greatest importance due to concern that the underlying distinctions between the two classes was being overwritten by select dominant features, the models still performed very well.  
+From the Random Forest, feature importances were collected. After removing the features with greatest importance due to concern that the underlying distinctions between the two classes were being overwritten by select dominant features, the models still performed very well.  
 Additional stopwords include Namibia, Soviet, Korea, and Cyprus. For a full list of terms added to the stopwords set, see [notes.md](https://github.com/sborodach/capstone_2/blob/main/notes.md)
 
 ### Predicting Speeches' Era: Pre & Post Cold War
